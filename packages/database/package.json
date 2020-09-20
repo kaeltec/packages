@@ -31,7 +31,7 @@
     "connection"
   ],
   "dependencies": {
-    "@kaelbot/constants": "^0.1.0",
+    "@kaelbot/constants": "*",
     "mongodb": "^3.6.0",
     "mongoose": "^5.9.28"
   },
