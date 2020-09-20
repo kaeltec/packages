@@ -1,6 +1,6 @@
 {
   "name": "@kaelbot/database",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "AGPL-3.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -31,7 +31,7 @@
     "connection"
   ],
   "dependencies": {
-    "@kaelbot/constants": "*",
+    "@kaelbot/constants": "^1.0.1",
     "mongodb": "^3.6.0",
     "mongoose": "^5.9.28"
   },
