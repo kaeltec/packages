@@ -8,10 +8,10 @@
   "scripts": {
     "build": "rollup -c",
     "prebuild": "yarn clean",
-    "postpublish": "node scripts/clean.js",
+    "postpublish": "yarn clean",
     "prepublishOnly": "yarn build && yarn make",
     "make": "node scripts/make.js",
-    "clean": "rimraf dist typings && node scripts/clean.js"
+    "clean": "node scripts/clean.js"
   },
   "repository": {
     "type": "git",
