@@ -1,5 +1,5 @@
 {
-  "name": "@kael/database",
+  "name": "@kaelbot/database",
   "version": "0.0.2",
   "license": "AGPL-3.0",
   "main": "dist/index.js",
@@ -31,12 +31,13 @@
     "connection"
   ],
   "dependencies": {
-    "@kael/constants": "^0.0.2",
+    "@kaelbot/constants": "^0.0.2",
     "mongodb": "^3.6.0",
     "mongoose": "^5.9.28"
   },
   "devDependencies": {
     "@types/mongodb": "3.5.27",
     "@types/mongoose": "5.7.36"
-  }
+  },
+  "gitHead": "a533e0001a418b99855f3a33e5fb175cfc02b668"
 }

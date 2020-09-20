@@ -1,0 +1,31 @@
+{
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "**/*.js", "**/*.spec*", "**/*.test*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES6", "ES2016", "ES2020"],
+    "paths": {
+      "@kaelbot/*": ["packages/*/src"]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@kael/constants",
+  "name": "@kaelbot/constants",
   "version": "0.0.2",
   "license": "AGPL-3.0",
   "main": "index.js",
@@ -31,5 +31,6 @@
     "kael",
     "nodejs",
     "constants"
-  ]
+  ],
+  "gitHead": "a533e0001a418b99855f3a33e5fb175cfc02b668"
 }

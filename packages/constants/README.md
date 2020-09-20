@@ -1,0 +1,3 @@
+# constants
+
+Kael bot constants.
