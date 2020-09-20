@@ -9,11 +9,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * add packages ([0337e94](https://github.com/kaeltec/packages/commit/0337e9436fb635300f5a312c671a2f21818b4daf))
-
-
-
-
-
-## 0.0.2 (2020-09-20)
-
-**Note:** Version bump only for package kael
