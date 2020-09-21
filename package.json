@@ -6,9 +6,10 @@
   "scripts": {
     "fix": "yarn lint:fix && yarn prettier:fix",
     "clean": "lerna exec --parallel -- rimraf dist typings node_modules/.cache",
+    "prepub": "yarn build",
     "pub": "lerna version --conventional-commits && lerna publish from-package --conventional-commits",
     "prebuild": "yarn clean",
-    "postbuild": "node fix.js",
+    "postbuild": "node fix",
     "build": "lerna exec --parallel -- rollup -c ../../rollup.config.js",
     "lint": "eslint ./ --ext js,ts",
     "lint:fix": "eslint ./ --ext js,ts --fix",
