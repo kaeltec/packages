@@ -16,8 +16,7 @@
   "files": [
     "dist",
     "typings",
-    "*.js",
-    "*.js.map"
+    "providers"
   ],
   "keywords": [
     "kael",
