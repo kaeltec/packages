@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "fix": "yarn lint:fix && yarn prettier:fix",
-    "clean": "node clean.js && lerna exec --parallel -- rimraf dist typings node_modules/.cache",
+    "clean": "lerna exec --parallel -- rimraf dist typings node_modules/.cache",
     "pub": "lerna version --conventional-commits && lerna publish from-package --conventional-commits",
     "prebuild": "yarn clean",
-    "build": "lerna exec --parallel -- yarn build",
+    "build": "lerna exec --parallel -- rollup -c ../../rollup.config.js",
     "lint": "eslint ./ --ext js,ts",
     "lint:fix": "eslint ./ --ext js,ts --fix",
     "prettier": "prettier --check ./**/*.{js,ts}",
