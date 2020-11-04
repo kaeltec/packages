@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/kaeltec/packages/compare/v1.0.2...v1.0.3) (2020-11-04)
+
+
+### Bug Fixes
+
+* package files ([0005824](https://github.com/kaeltec/packages/commit/0005824532bfac10977c90275865b6be7ba4a16c))
+
+
+
+
+
 ## [1.0.2](https://github.com/kaeltec/packages/compare/v1.0.1...v1.0.2) (2020-09-21)
 
 **Note:** Version bump only for package @kaelbot/database
