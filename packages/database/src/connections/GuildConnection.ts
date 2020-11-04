@@ -18,13 +18,10 @@ class GuildConnection extends BaseConnection<GuildDocument> {
     return {
       prefix: Defaults.Prefix,
       language: Defaults.Language,
-      role_all: undefined,
       social: { bank: 0 },
       vanity: { users: [] },
-      mute: { role: '', users: [] },
       auto_role: { active: false, roles: [] },
       suggestion: { active: false, channel: '' },
-      freeze: { role: '', channel: '', users: [] },
       nivel: { active: false, message: '', roles: [] },
       count: { active: false, text: '', type: '', channel: '' },
       welcome: {

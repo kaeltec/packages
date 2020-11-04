@@ -63,13 +63,6 @@ export interface GuildAutoRole {
   roles: string[];
 }
 
-// Role All
-export interface GuildRoleAll {
-  type: 'add' | 'remove';
-  channel: string;
-  roles: string[];
-}
-
 // Suggestion
 export interface GuildSuggestion {
   active: boolean;
@@ -118,42 +111,13 @@ export interface GuildNivel {
 export interface GuildUserVanity {
   id: string;
   role: string;
-  time: string;
+  time: number;
   added_by: string;
   timestamp: number;
 }
 
 export interface GuildVanity {
   users: GuildUserVanity[];
-}
-
-// Mute
-
-export interface GuildUserMute {
-  id: string;
-  time: number;
-  reason: string;
-  timestamp: number;
-}
-
-export interface GuildMute {
-  role: string;
-  users: GuildUserMute[];
-}
-
-// Freeze
-
-export interface GuildUserFreeze {
-  id: string;
-  time: number;
-  reason: string;
-  timestamp: number;
-}
-
-export interface GuildFreeze {
-  role: string;
-  channel: string;
-  users: GuildUserFreeze[];
 }
 
 // Welcome
@@ -184,14 +148,11 @@ export interface GuildWelcome {
 export interface GuildDocument extends DocumentBase {
   prefix: string;
   language: string;
-  mute: GuildMute;
   nivel: GuildNivel;
   count: GuildCount;
   social: GuildSocial;
   vanity: GuildVanity;
-  freeze: GuildFreeze;
   welcome: GuildWelcome;
-  role_all?: GuildRoleAll;
   auto_role: GuildAutoRole;
   suggestion: GuildSuggestion;
   harry_potter: GuildHarryPotter;
