@@ -3,8 +3,7 @@ export default {
   Language: 'pt-BR',
   FavoriteColor: '#eb798d',
   Background: 'https://i.imgur.com/XVNmOUb.png',
-  Biography:
-    'Oi, eu sou o Kael. Um porquinho charmoso que alegra seu dia. Para alterar a sua biografia acesse meu dashboard!',
+  Biography: 'Altere sua biografia acessando meu painel de configurações.',
 
   Messages: {
     LevelUp: 'Parabéns [user], você passou para o nível **[nivel]**!',
