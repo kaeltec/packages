@@ -1,4 +1,4 @@
-import { Defaults } from '@kaelbot/constants';
+import { Defaults, CountModels } from '@kaelbot/constants';
 
 import GuildSchema from '../schemas/Guild';
 
@@ -22,8 +22,13 @@ class GuildConnection extends BaseConnection<GuildDocument> {
       vanity: { users: [] },
       auto_role: { active: false, roles: [] },
       suggestion: { active: false, channel: '' },
-      nivel: { active: false, message: '', roles: [] },
-      count: { active: false, text: '', type: '', channel: '' },
+      nivel: { active: false, message: Defaults.Messages.LevelUp, roles: [] },
+      count: {
+        active: false,
+        channel: '',
+        text: Defaults.Messages.Count,
+        type: CountModels.Normal[0].id.toString(),
+      },
       welcome: {
         leave: {
           active: false,

@@ -6,6 +6,7 @@ export default {
   Biography: 'Altere sua biografia acessando meu painel de configurações.',
 
   Messages: {
+    Count: '[kael] Membros.',
     LevelUp: 'Parabéns [user], você passou para o nível **[nivel]**!',
 
     Welcome: {

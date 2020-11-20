@@ -3,14 +3,13 @@ export default {
   Purchased: {},
 
   Roles: {
-    Design: 'src/assets/images/badges/design.png',
-    Helper: 'src/assets/images/badges/helper.png',
-    Support: 'src/assets/images/badges/support.png',
-    Partner: 'src/assets/images/badges/partner.png',
-    Verified: 'src/assets/images/badges/verified.png',
-    BugHunter: 'src/assets/images/badges/bughunter.png',
-    Developer: 'src/assets/images/badges/developer.png',
-    Coordinator: 'src/assets/images/badges/coordinator.png',
-    Collaborator: 'src/assets/images/badges/collaborator.png',
+    Design: 'https://i.imgur.com/DBx9HJ8.png',
+    Helper: 'https://i.imgur.com/fVm19DA.png',
+    Support: 'https://i.imgur.com/LWxAlMg.png',
+    Partner: 'https://i.imgur.com/85G7cCS.png',
+    BugHunter: 'https://i.imgur.com/i6IwIOF.png',
+    Developer: 'https://i.imgur.com/ylPgZI4.png',
+    Coordinator: 'https://i.imgur.com/IwPIuB5.png',
+    Collaborator: 'https://i.imgur.com/rZeShYO.png',
   },
 };
