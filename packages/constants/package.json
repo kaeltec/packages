@@ -1,6 +1,6 @@
 {
   "name": "@kaelbot/constants",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "AGPL-3.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

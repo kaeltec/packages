@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/kaeltec/packages/compare/v1.0.3...v1.0.4) (2020-11-20)
+
+
+### Bug Fixes
+
+* default biography text ([6ab8a9f](https://github.com/kaeltec/packages/commit/6ab8a9f397395b8c965e5e1f2ed21167b614131e))
+
+
+
+
+
 ## [1.0.3](https://github.com/kaeltec/packages/compare/v1.0.2...v1.0.3) (2020-11-04)
 
 
