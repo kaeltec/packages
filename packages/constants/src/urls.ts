@@ -1,7 +1,9 @@
+import { makeUrl } from './all';
+
 export default {
-  Site: 'https://kaelbot.xyz',
-  Api: 'https://api.kaelbot.xyz',
-  Gateway: 'wss://gateway.kaelbot.xyz',
-  Dashboard: 'https://dash.kaelbot.xyz',
-  Webhook: 'https://webhook.kaelbot.xyz',
+  Site: makeUrl(),
+  Api: makeUrl({ subdomain: 'api' }),
+  Dashboard: makeUrl({ subdomain: 'dash' }),
+  Webhook: makeUrl({ subdomain: 'webhook' }),
+  Gateway: makeUrl({ subdomain: 'gateway', protocol: 'wss' }),
 };
