@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/kaeltec/packages/compare/v1.0.4...v1.0.5) (2021-01-08)
+
+
+### Bug Fixes
+
+* dynamic domain and urls ([ee47da5](https://github.com/kaeltec/packages/commit/ee47da53639699ef1506d65d306677a446580ff8))
+
+
+
+
+
 ## [1.0.4](https://github.com/kaeltec/packages/compare/v1.0.3...v1.0.4) (2020-11-20)
 
 
