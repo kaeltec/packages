@@ -13,7 +13,7 @@ export default {
       Black: 'https://imgur.com/LjuYoTv',
     },
     Count: 'https://i.imgur.com/cNpUU9R.png',
-    Vanity: 'https://i.imgur.com/KN9cXR5.png',
+    Vanity: 'https://imgur.com/tF2IEAF',
     Freeze: 'https://imgur.com/UVwyp4C',
     AutoRole: 'https://i.imgur.com/sZPrXDQ.png',
   },
