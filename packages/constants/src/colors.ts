@@ -1,6 +1,6 @@
 export default {
-  Error: '#fc171a',
-  Favorite: '42007f',
+  Error: '#ff4f4a',
+  Favorite: '#42007f',
   Social: {
     Card: {
       Light: '#e5e5e5',
