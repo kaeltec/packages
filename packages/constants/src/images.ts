@@ -9,8 +9,8 @@ export default {
     Help: 'https://i.imgur.com/nN2PWTb.png',
     Dice: 'https://i.imgur.com/cqsKhzy.png',
     Card: {
-      light: 'https://imgur.com/mM1ec7b',
-      black: 'https://imgur.com/LjuYoTv',
+      Light: 'https://imgur.com/mM1ec7b',
+      Black: 'https://imgur.com/LjuYoTv',
     },
     Count: 'https://i.imgur.com/cNpUU9R.png',
     Vanity: 'https://i.imgur.com/KN9cXR5.png',
