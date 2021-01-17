@@ -3,8 +3,8 @@ export default {
   Favorite: '#eb798d',
   Social: {
     Card: {
-      light: 'e5e5e5',
-      black: '191820',
+      Light: '#e5e5e5',
+      Black: '#191820',
     }
   }
 };
