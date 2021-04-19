@@ -31,7 +31,7 @@
   "dependencies": {
     "@kaelbot/constants": "^1.0.5",
     "mongodb": "^3.6.3",
-    "mongoose": "^5.9.28"
+    "mongoose": "^5.11.13"
   },
   "devDependencies": {
     "@types/mongodb": "3.6.12",
