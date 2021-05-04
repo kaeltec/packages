@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@hitechline/eslint-config-node": "1.1.4",
-    "@rollup/plugin-commonjs": "17.1.0",
+    "@rollup/plugin-commonjs": "18.1.0",
     "@rollup/plugin-node-resolve": "11.2.1",
     "@rollup/plugin-url": "6.0.0",
     "@types/node": "14.14.43",
