@@ -34,7 +34,7 @@
     "mongoose": "^5.11.13"
   },
   "devDependencies": {
-    "@types/mongodb": "3.6.19",
+    "@types/mongodb": "3.6.20",
     "@types/mongoose": "5.11.96"
   },
   "gitHead": "a533e0001a418b99855f3a33e5fb175cfc02b668"
