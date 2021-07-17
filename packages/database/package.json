@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "@kaelbot/constants": "^1.0.5",
-    "mongodb": "^3.6.3",
+    "mongodb": "^4.0.0",
     "mongoose": "^5.11.13"
   },
   "devDependencies": {
